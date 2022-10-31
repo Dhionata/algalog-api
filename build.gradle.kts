@@ -14,8 +14,9 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
-    // https://mvnrepository.com/artifact/org.springframework/spring-web
-    implementation("org.springframework:spring-web:5.3.23")
+
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
+    implementation("org.springframework.boot:spring-boot-starter-web:2.7.5")
 
 }
 
